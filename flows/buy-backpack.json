@@ -1,0 +1,16 @@
+{
+  "name": "buy-backpack",
+  "start": "/index.html",
+  "goals": [
+    "Click the Shop now button",
+    "Add the Trail Backpack to the cart",
+    "Open the cart",
+    "Click the Proceed to checkout button",
+    "Type Ada Lovelace in the full name field",
+    "Type ada@example.com in the email field",
+    "Type 12 Analytical St in the shipping address field",
+    "Type 4242424242424242 in the card number field",
+    "Click the Place order button"
+  ],
+  "expectUrl": "/confirmation.html"
+}

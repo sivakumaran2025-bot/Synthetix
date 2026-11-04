@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Products - ShopLite</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site"><div class="bar">
+    <a class="logo" href="index.html">ShopLite</a>
+    <nav aria-label="Main"><ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul></nav>
+  </div></header>
+  <main>
+    <h1>Products</h1>
+    <label for="product-search" style="max-width:320px">Search products
+      <input type="search" id="product-search" placeholder="e.g. lamp">
+    </label>
+    <div id="add-status" class="muted" role="status" style="margin-top:12px"></div>
+    <div id="product-grid" class="grid"></div>
+  </main>
+  <footer class="site">&copy; 2026 ShopLite - a mock store for Synthetix testing</footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

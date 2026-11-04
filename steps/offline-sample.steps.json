@@ -1,0 +1,296 @@
+{
+  "version": 1,
+  "name": "buy-backpack-offline-sample",
+  "baseUrl": "http://127.0.0.1:4173",
+  "start": "/index.html",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "createdAt": "2026-11-01T03:49:00.727Z",
+  "steps": [
+    {
+      "id": 1,
+      "intent": "Click the Shop now button",
+      "action": "click",
+      "locator": {
+        "strategy": "role",
+        "role": "link",
+        "name": "Shop now",
+        "exact": true
+      },
+      "code": "page.getByRole('link', { name: 'Shop now', exact: true })",
+      "fragile": false,
+      "urlAfter": "/products.html",
+      "evidence": {
+        "source": "dom",
+        "boxId": 6,
+        "box": {
+          "x": 155,
+          "y": 279,
+          "w": 132,
+          "h": 43
+        },
+        "center": {
+          "x": 221,
+          "y": 301
+        },
+        "confidence": 0.95,
+        "reason": "stand-in model",
+        "rejectedLocators": 0
+      }
+    },
+    {
+      "id": 2,
+      "intent": "Add the Trail Backpack to the cart",
+      "action": "click",
+      "locator": {
+        "strategy": "role",
+        "role": "button",
+        "name": "Add Trail Backpack to cart",
+        "exact": true
+      },
+      "code": "page.getByRole('button', { name: 'Add Trail Backpack to cart', exact: true })",
+      "fragile": false,
+      "urlAfter": "/products.html",
+      "evidence": {
+        "source": "dom",
+        "boxId": 7,
+        "box": {
+          "x": 133,
+          "y": 513,
+          "w": 210,
+          "h": 42
+        },
+        "center": {
+          "x": 238,
+          "y": 534
+        },
+        "confidence": 0.95,
+        "reason": "stand-in model",
+        "rejectedLocators": 0
+      }
+    },
+    {
+      "id": 3,
+      "intent": "Open the cart",
+      "action": "click",
+      "locator": {
+        "strategy": "role",
+        "role": "link",
+        "name": "Cart",
+        "exact": false
+      },
+      "code": "page.getByRole('link', { name: 'Cart' })",
+      "fragile": false,
+      "urlAfter": "/cart.html",
+      "evidence": {
+        "source": "dom",
+        "boxId": 4,
+        "box": {
+          "x": 951,
+          "y": 16,
+          "w": 105,
+          "h": 39
+        },
+        "center": {
+          "x": 1004,
+          "y": 36
+        },
+        "confidence": 0.95,
+        "reason": "stand-in model",
+        "rejectedLocators": 0
+      }
+    },
+    {
+      "id": 4,
+      "intent": "Click the Proceed to checkout button",
+      "action": "click",
+      "locator": {
+        "strategy": "role",
+        "role": "link",
+        "name": "Proceed to checkout",
+        "exact": true
+      },
+      "code": "page.getByRole('link', { name: 'Proceed to checkout', exact: true })",
+      "fragile": false,
+      "urlAfter": "/checkout.html",
+      "evidence": {
+        "source": "dom",
+        "boxId": 7,
+        "box": {
+          "x": 114,
+          "y": 328,
+          "w": 228,
+          "h": 43
+        },
+        "center": {
+          "x": 228,
+          "y": 350
+        },
+        "confidence": 0.95,
+        "reason": "stand-in model",
+        "rejectedLocators": 0
+      }
+    },
+    {
+      "id": 5,
+      "intent": "Type Ada Lovelace in the full name field",
+      "action": "fill",
+      "text": "Ada Lovelace",
+      "locator": {
+        "strategy": "role",
+        "role": "textbox",
+        "name": "Full name",
+        "exact": true
+      },
+      "code": "page.getByRole('textbox', { name: 'Full name', exact: true })",
+      "fragile": false,
+      "urlAfter": "/checkout.html",
+      "evidence": {
+        "source": "dom",
+        "boxId": 6,
+        "box": {
+          "x": 139,
+          "y": 242,
+          "w": 370,
+          "h": 40
+        },
+        "center": {
+          "x": 324,
+          "y": 262
+        },
+        "confidence": 0.95,
+        "reason": "stand-in model",
+        "rejectedLocators": 0
+      }
+    },
+    {
+      "id": 6,
+      "intent": "Type ada@example.com in the email field",
+      "action": "fill",
+      "text": "ada@example.com",
+      "locator": {
+        "strategy": "role",
+        "role": "textbox",
+        "name": "Email",
+        "exact": true
+      },
+      "code": "page.getByRole('textbox', { name: 'Email', exact: true })",
+      "fragile": false,
+      "urlAfter": "/checkout.html",
+      "evidence": {
+        "source": "dom",
+        "boxId": 7,
+        "box": {
+          "x": 139,
+          "y": 318,
+          "w": 370,
+          "h": 40
+        },
+        "center": {
+          "x": 324,
+          "y": 338
+        },
+        "confidence": 0.95,
+        "reason": "stand-in model",
+        "rejectedLocators": 0
+      }
+    },
+    {
+      "id": 7,
+      "intent": "Type 12 Analytical St in the shipping address field",
+      "action": "fill",
+      "text": "12 Analytical St",
+      "locator": {
+        "strategy": "role",
+        "role": "textbox",
+        "name": "Shipping address",
+        "exact": true
+      },
+      "code": "page.getByRole('textbox', { name: 'Shipping address', exact: true })",
+      "fragile": false,
+      "urlAfter": "/checkout.html",
+      "evidence": {
+        "source": "dom",
+        "boxId": 8,
+        "box": {
+          "x": 139,
+          "y": 394,
+          "w": 370,
+          "h": 40
+        },
+        "center": {
+          "x": 324,
+          "y": 414
+        },
+        "confidence": 0.95,
+        "reason": "stand-in model",
+        "rejectedLocators": 0
+      }
+    },
+    {
+      "id": 8,
+      "intent": "Type 4242424242424242 in the card number field",
+      "action": "fill",
+      "text": "4242424242424242",
+      "locator": {
+        "strategy": "role",
+        "role": "textbox",
+        "name": "Card number",
+        "exact": true
+      },
+      "code": "page.getByRole('textbox', { name: 'Card number', exact: true })",
+      "fragile": false,
+      "urlAfter": "/checkout.html",
+      "evidence": {
+        "source": "dom",
+        "boxId": 9,
+        "box": {
+          "x": 139,
+          "y": 470,
+          "w": 370,
+          "h": 40
+        },
+        "center": {
+          "x": 324,
+          "y": 490
+        },
+        "confidence": 0.95,
+        "reason": "stand-in model",
+        "rejectedLocators": 0
+      }
+    },
+    {
+      "id": 9,
+      "intent": "Click the Place order button",
+      "action": "click",
+      "locator": {
+        "strategy": "role",
+        "role": "button",
+        "name": "Place order",
+        "exact": true
+      },
+      "code": "page.getByRole('button', { name: 'Place order', exact: true })",
+      "fragile": false,
+      "urlAfter": "/confirmation.html",
+      "evidence": {
+        "source": "dom",
+        "boxId": 10,
+        "box": {
+          "x": 139,
+          "y": 524,
+          "w": 370,
+          "h": 42
+        },
+        "center": {
+          "x": 324,
+          "y": 545
+        },
+        "confidence": 0.95,
+        "reason": "stand-in model",
+        "rejectedLocators": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "stepsFile": "steps\\buy-backpack.steps.json",
+  "generatedAt": "2026-11-02T13:16:49.577Z",
+  "results": [
+    {
+      "scenario": "rename-text",
+      "arm": "css",
+      "runs": [
+        {
+          "verdict": "pass",
+          "passed": 9,
+          "total": 9,
+          "failedAt": null,
+          "error": null,
+          "healed": 0,
+          "outcome": {
+            "path": "/confirmation.html",
+            "total": 59
+          },
+          "ms": 765
+        }
+      ]
+    },
+    {
+      "scenario": "rename-text",
+      "arm": "xpath",
+      "runs": [
+        {
+          "verdict": "pass",
+          "passed": 9,
+          "total": 9,
+          "failedAt": null,
+          "error": null,
+          "healed": 0,
+          "outcome": {
+            "path": "/confirmation.html",
+            "total": 59
+          },
+          "ms": 833
+        }
+      ]
+    },
+    {
+      "scenario": "rename-text",
+      "arm": "semantic",
+      "runs": [
+        {
+          "verdict": "fail",
+          "passed": 0,
+          "total": 9,
+          "failedAt": 1,
+          "error": "locator.click: Timeout 2000ms exceeded.",
+          "healed": 0,
+          "outcome": null,
+          "ms": 2213
+        }
+      ]
+    },
+    {
+      "scenario": "rename-text",
+      "arm": "synthetix",
+      "runs": [
+        {
+          "verdict": "fail",
+          "passed": 0,
+          "total": 9,
+          "failedAt": 1,
+          "error": "locator.click: Timeout 2000ms exceeded.",
+          "healed": 0,
+          "outcome": null,
+          "ms": 2119
+        }
+      ]
+    },
+    {
+      "scenario": "rename-text",
+      "arm": "heal",
+      "runs": [
+        {
+          "verdict": "pass",
+          "passed": 9,
+          "total": 9,
+          "failedAt": null,
+          "error": null,
+          "healed": 7,
+          "outcome": {
+            "path": "/confirmation.html",
+            "total": 59
+          },
+          "ms": 54499
+        },
+        {
+          "verdict": "pass",
+          "passed": 9,
+          "total": 9,
+          "failedAt": null,
+          "error": null,
+          "healed": 7,
+          "outcome": {
+            "path": "/confirmation.html",
+            "total": 59
+          },
+          "ms": 51739
+        },
+        {
+          "verdict": "pass",
+          "passed": 9,
+          "total": 9,
+          "failedAt": null,
+          "error": null,
+          "healed": 7,
+          "outcome": {
+            "path": "/confirmation.html",
+            "total": 59
+          },
+          "ms": 48797
+        }
+      ]
+    },
+    {
+      "scenario": "everything",
+      "arm": "css",
+      "runs": [
+        {
+          "verdict": "fail",
+          "passed": 0,
+          "total": 9,
+          "failedAt": 1,
+          "error": "locator.click: Timeout 2000ms exceeded.",
+          "healed": 0,
+          "outcome": null,
+          "ms": 2115
+        }
+      ]
+    },
+    {
+      "scenario": "everything",
+      "arm": "xpath",
+      "runs": [
+        {
+          "verdict": "fail",
+          "passed": 0,
+          "total": 9,
+          "failedAt": 1,
+          "error": "locator.click: Timeout 2000ms exceeded.",
+          "healed": 0,
+          "outcome": null,
+          "ms": 2125
+        }
+      ]
+    },
+    {
+      "scenario": "everything",
+      "arm": "semantic",
+      "runs": [
+        {
+          "verdict": "fail",
+          "passed": 0,
+          "total": 9,
+          "failedAt": 1,
+          "error": "locator.click: Timeout 2000ms exceeded.",
+          "healed": 0,
+          "outcome": null,
+          "ms": 2103
+        }
+      ]
+    },
+    {
+      "scenario": "everything",
+      "arm": "synthetix",
+      "runs": [
+        {
+          "verdict": "fail",
+          "passed": 0,
+          "total": 9,
+          "failedAt": 1,
+          "error": "locator.click: Timeout 2000ms exceeded.",
+          "healed": 0,
+          "outcome": null,
+          "ms": 2105
+        }
+      ]
+    },
+    {
+      "scenario": "everything",
+      "arm": "heal",
+      "runs": [
+        {
+          "verdict": "pass",
+          "passed": 9,
+          "total": 9,
+          "failedAt": null,
+          "error": null,
+          "healed": 7,
+          "outcome": {
+            "path": "/confirmation.html",
+            "total": 59
+          },
+          "ms": 57991
+        },
+        {
+          "verdict": "pass",
+          "passed": 9,
+          "total": 9,
+          "failedAt": null,
+          "error": null,
+          "healed": 7,
+          "outcome": {
+            "path": "/confirmation.html",
+            "total": 59
+          },
+          "ms": 59662
+        },
+        {
+          "verdict": "pass",
+          "passed": 9,
+          "total": 9,
+          "failedAt": null,
+          "error": null,
+          "healed": 7,
+          "outcome": {
+            "path": "/confirmation.html",
+            "total": 59
+          },
+          "ms": 55430
+        }
+      ]
+    }
+  ]
+}

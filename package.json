@@ -1,0 +1,39 @@
+{
+  "name": "synthetix",
+  "version": "0.1.0",
+  "description": "Vision-first, self-healing CLI test agent (Meta Global AI Developer Hackathon 2026)",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "serve": "node scripts/serve.js",
+    "check:env": "node scripts/check-env.js",
+    "check:site": "node scripts/check-site.js",
+    "smoke": "node scripts/smoke.js",
+    "test:phase2": "node scripts/phase2-test.js",
+    "phase2": "npm run test:phase2",
+    "test:phase3": "node scripts/phase3-test.js",
+    "phase3": "npm run test:phase3",
+    "discover": "node scripts/discover.js",
+    "test:phase4": "node scripts/phase4-test.js",
+    "phase4": "npm run test:phase4",
+    "choose": "node scripts/choose.js",
+    "test:phase5": "node scripts/phase5-test.js",
+    "phase5": "npm run test:phase5",
+    "record": "node scripts/record.js",
+    "replay": "node scripts/replay.js",
+    "test:phase6": "node scripts/phase6-test.js",
+    "phase6": "npm run test:phase6",
+    "heal": "node scripts/heal.js",
+    "test:phase7": "node scripts/phase7-test.js",
+    "phase7": "npm run test:phase7",
+    "benchmark": "node scripts/benchmark.js",
+    "phase1": "npm run check:env && npm run check:site && npm run smoke"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "playwright": "1.56.1"
+  }
+}
